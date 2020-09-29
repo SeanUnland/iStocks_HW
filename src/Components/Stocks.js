@@ -33,7 +33,8 @@ const Stocks = (props) => {
         <p>{props.intel}</p>
       </a>
 
-      {/* <p>{props.apple}</p> */}
+      <p>{props.price}</p>
+
       <Prices name={props.name} price={props.price} />
     </>
   );

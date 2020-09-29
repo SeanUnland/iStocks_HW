@@ -20,6 +20,8 @@ function App() {
         facebook={ele.facebook}
         oracle={ele.oracle}
         intel={ele.intel}
+        price={ele.open}
+        index={index}
       />
     );
   });
@@ -47,6 +49,8 @@ function App() {
             <About />
           </Route>
           <Prices handleClick={handleClick} />
+
+          <Route path="/Stocks/Apple%20Inc" render={(price) => <Stocks />} />
         </Switch>
       </main>
     </div>
