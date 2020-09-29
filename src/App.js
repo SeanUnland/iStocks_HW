@@ -26,17 +26,19 @@ function App() {
         <Link to="/About">About</Link>
       </nav>
       <main>
-        <Route exact path="/Home">
-          <Home />
-        </Route>
-        <Route path="/Stocks">
-          <Stocks stockInfo={stockInfo} />
-          <section>{stockInfo}</section>
-        </Route>
-        <Route path="/About">
-          <About />
-        </Route>
-        <Prices handleClick={handleClick} />
+        <Switch>
+          <Route exact path="/Home">
+            <Home />
+          </Route>
+          <Route path="/Stocks">
+            <Stocks stockInfo={stockInfo} />
+            <section>{stockInfo}</section>
+          </Route>
+          <Route path="/About">
+            <About />
+          </Route>
+          <Prices handleClick={handleClick} />
+        </Switch>
       </main>
     </div>
   );
