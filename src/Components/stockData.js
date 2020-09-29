@@ -1,6 +1,6 @@
 export default [
   {
-    name: "Apple Inc.",
+    apple: "Apple Inc.",
     symbol: "AAPL",
     lastPrice: 140.64,
     change: -0.280000000000001,
@@ -9,7 +9,7 @@ export default [
     open: 141.5,
   },
   {
-    name: "Microsoft Corporation",
+    microsoft: "Microsoft Corporation",
     symbol: "MSFT",
     lastPrice: 64.98,
     change: 0.109999999999999,
@@ -18,7 +18,7 @@ export default [
     open: 65.12,
   },
   {
-    name: "Alphabet Inc.",
+    alphabet: "Alphabet Inc.",
     symbol: "GOOGL",
     lastPrice: 835.14,
     change: -4.50999999999999,
@@ -27,7 +27,7 @@ export default [
     open: 842,
   },
   {
-    name: "Facebook, Inc.",
+    facebook: "Facebook, Inc.",
     symbol: "FB",
     lastPrice: 140.34,
     change: 0.810000000000002,
@@ -36,7 +36,7 @@ export default [
     open: 140.08,
   },
   {
-    name: "Oracle Corporation",
+    oracle: "Oracle Corporation",
     symbol: "ORCL",
     lastPrice: 44.65,
     change: -0.300000000000004,
@@ -45,7 +45,7 @@ export default [
     open: 44.91,
   },
   {
-    name: "Intel Corporation",
+    intel: "Intel Corporation",
     symbol: "INTL",
     lastPrice: 36.16,
     change: -0.370000000000005,

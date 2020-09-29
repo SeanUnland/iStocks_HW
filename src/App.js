@@ -12,7 +12,16 @@ function App() {
   const [stock, setStock] = useState(null);
 
   const stockInfo = stockData.map((ele, index) => {
-    return <Stocks name={ele.name} price={ele.open} />;
+    return (
+      <Stocks
+        apple={ele.apple}
+        microsoft={ele.microsoft}
+        alphabet={ele.alphabet}
+        facebook={ele.facebook}
+        oracle={ele.oracle}
+        intel={ele.intel}
+      />
+    );
   });
 
   const handleClick = (stock) => {

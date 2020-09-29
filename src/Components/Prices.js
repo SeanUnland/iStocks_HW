@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 const Prices = (props) => {
-  return <></>;
+  return <>{/* <p>{props.name}</p>
+      <p>{props.price}</p> */}</>;
 };
 
 export default Prices;
