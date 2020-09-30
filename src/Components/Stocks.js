@@ -13,23 +13,23 @@ const Stocks = (props) => {
       </a>
       {/* </Route> */}
 
-      <a href="/Stocks/Microsft">
+      <a href="/Stocks/Microsft Corporation">
         <p>{props.microsoft}</p>
       </a>
 
-      <a href="/Stock/Alphabet">
+      <a href="/Stock/Alphabet Inc">
         <p>{props.alphabet}</p>
       </a>
 
-      <a href="/Stocks/Facebook">
+      <a href="/Stocks/Facebook Inc">
         <p>{props.facebook}</p>
       </a>
 
-      <a href="/Stocks/Oracle">
+      <a href="/Stocks/Oracle Corporation">
         <p>{props.oracle}</p>
       </a>
 
-      <a href="/Stocks/Intel">
+      <a href="/Stocks/Intel Corporation">
         <p>{props.intel}</p>
       </a>
 
@@ -39,5 +39,7 @@ const Stocks = (props) => {
     </>
   );
 };
+
+// I got the companies to appear in Stocks and when they are clicke the URL changes. I can't figure out how to click one, open it and display its respected name and price. I added the price to the Stocks component as a palceholder
 
 export default Stocks;

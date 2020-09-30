@@ -42,7 +42,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/Stocks">
-            <Stocks stockInfo={stockInfo} />
+            <Stocks stockInfo={stockInfo} handleClick={handleClick} />
             <section>{stockInfo}</section>
           </Route>
           <Route path="/About">
